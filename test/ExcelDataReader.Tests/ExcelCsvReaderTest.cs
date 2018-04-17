@@ -5,9 +5,7 @@ using NUnit.Framework;
 
 // Most CSV test data came from csv-spectrum: https://github.com/maxogden/csv-spectrum
 
-#if EXCELDATAREADER_NET20
-namespace ExcelDataReader.Net20.Tests
-#elif NET45
+#if NET45
 namespace ExcelDataReader.Net45.Tests
 #elif NETCOREAPP1_0
 namespace ExcelDataReader.Netstandard13.Tests

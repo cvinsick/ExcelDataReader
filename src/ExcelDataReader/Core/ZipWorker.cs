@@ -1,8 +1,6 @@
 using System;
 using System.IO;
-#if !NET20
 using System.IO.Compression;
-#endif
 
 namespace ExcelDataReader.Core
 {

@@ -6,9 +6,7 @@ using TestCleanup = NUnit.Framework.TearDownAttribute;
 using TestInitialize = NUnit.Framework.SetUpAttribute;
 using TestMethod = NUnit.Framework.TestAttribute;
 
-#if EXCELDATAREADER_NET20
-namespace ExcelDataReader.Net20.Tests
-#elif NET45
+#if NET45
 namespace ExcelDataReader.Net45.Tests
 #elif NETCOREAPP1_0
 namespace ExcelDataReader.Netstandard13.Tests

@@ -1,4 +1,4 @@
-﻿#if NET20 || NET45 || NETCOREAPP2_0
+﻿#if NET45 || NETCOREAPP2_0
 using System.Data;
 using System.Globalization;
 using System.Threading;
